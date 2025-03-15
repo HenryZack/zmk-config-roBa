@@ -60,7 +60,7 @@
         user1: user1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp N1 &kp N5 &kp N7 &kp N0 &kp N4 &kp N6>;
+            bindings = <&kp LS(M) &kp N1 &kp N5 &kp N7 &kp N0 &kp N4 &kp N6>;
             label = "USER1";
         };
 

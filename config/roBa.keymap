@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -157,10 +152,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &PRCA   &trans                       &trans  &trans               &trans                    &trans               &trans
-&trans  &trans  &pass1  &user1  &adress  &trans      &trans  &trans  &trans               &trans                    &trans               &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans  &kp INTERNATIONAL_4  &kp INT_KATAKANAHIRAGANA  &kp INTERNATIONAL_5  &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                                      &trans
+&trans  &trans  &trans  &PRCA   &trans                       &trans  &trans  &trans                    &trans  &trans
+&trans  &trans  &pass1  &user1  &adress  &trans      &trans  &trans  &trans  &trans                    &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans  &trans  &kp INT_KATAKANAHIRAGANA  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                            &trans
             >;
         };
 
